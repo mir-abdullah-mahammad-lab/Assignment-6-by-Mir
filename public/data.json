@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Spark",
+    "description": "A lightweight plan for solo creators who want to launch quickly without wrestling a spreadsheet hydra.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "25+ starter templates",
+      "Basic customization tools",
+      "Export to PDF",
+      "Email support"
+    ],
+    "icon": "rocket"
+  },
+  {
+    "id": 2,
+    "name": "Pro Pulse",
+    "description": "Built for freelancers and professionals who want polished results with fewer clicks and more tiny victories.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "Advanced customization",
+      "ATS optimization",
+      "Export to PDF and DOCX",
+      "Priority support"
+    ],
+    "icon": "zap"
+  },
+  {
+    "id": 3,
+    "name": "Career Forge",
+    "description": "A toolkit for job seekers who want every application to arrive wearing polished boots and a sharp tie.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "250+ templates",
+      "Cover letter generator",
+      "ATS optimization",
+      "Cloud storage"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "id": 4,
+    "name": "Team Orbit",
+    "description": "Perfect for small teams managing resumes, portfolios, and documents in one tidy little galaxy.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Shared workspace",
+      "Team collaboration",
+      "Version history",
+      "Unlimited exports",
+      "Admin dashboard"
+    ],
+    "icon": "users"
+  },
+  {
+    "id": 5,
+    "name": "Enterprise Titan",
+    "description": "For large organizations that need power, control, and enough features to make a dashboard purr like a clockwork dragon.",
+    "price": 299,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited team members",
+      "Custom branding",
+      "API access",
+      "Dedicated account manager",
+      "Advanced analytics"
+    ],
+    "icon": "building"
+  },
+  {
+    "id": 6,
+    "name": "Launch Pad",
+    "description": "A compact subscription with just enough fuel for students and beginners to get rolling.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10 resume templates",
+      "Basic editor",
+      "1-click export",
+      "Mobile friendly"
+    ],
+    "icon": "sparkles"
+  }
+]
