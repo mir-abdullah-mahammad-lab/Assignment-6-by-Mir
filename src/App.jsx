@@ -8,7 +8,6 @@ import DataDiv from './Sections/DataDiv/DataDiv'
 import SecondSection from './Sections/SecondSection/SecondSection'
 import ThirdSection from './Sections/ThirdSection/ThirdSection'
 import FiveSection from './Sections/FiveSection/FiveSection'
-import SixSection from './Sections/SixSection/SixSection'
 import SevenSection from './Sections/SevenSection/SevenSection'
 import Footer from './Sections/Footer/Footer'
 
@@ -32,12 +31,12 @@ function App() {
        <ThirdSection></ThirdSection>
        <Premium></Premium>
           
-       <Suspense fallback={'dataLoading'}>
+       <Suspense fallback={<span className="loading loading-spinner loading-xs"></span>}>
           <DataDiv toolsData={toolsData}></DataDiv>
        </Suspense>
 
        <FiveSection></FiveSection>
-       {/* <SixSection></SixSection> */}
+       
        <SevenSection></SevenSection>
        <Footer></Footer>
     </div>

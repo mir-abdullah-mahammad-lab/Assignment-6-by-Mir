@@ -5,12 +5,14 @@ import pack from '../../assets/pack.png'
 
 const FiveSection = () => {
     return (
-      <div className='w-auto h-auto bg-linear-to-r from-gray-500 to-gray-200 flex flex-col items-center justify-center'>
-            <h1 className='text-4xl font-bold'>Get Started in 3 Steps</h1>
+      <div className='w-auto h-auto mix-h-200 bg-linear-to-r from-gray-500 to-gray-200 flex flex-col items-center justify-center'>
+            <div className='m-10'>
+                <h1 className='text-4xl font-bold'>Get Started in 3 Steps</h1>
             <p className='text-[15px]'>Start using premium digital tools in minutes, not hours.</p>
-            <div className='flex flex-col md:flex-row gap-4'>
+            </div>
+            <div className='flex flex-col md:flex-row gap-4 m-10'>
                 <div className='card-1 '>
-                <div className="card w-96 bg-base-100 shadow-sm">
+                <div className="card w-96  bg-base-100 shadow-sm">
                             <div className="card-body flex flex-col space-y-4">
                                 <div className='text-right'>
                                     <button className=' border h-[20px] w-[20px] bg-linear-to-r  from-[#4F39F6] to-[#9514FA] rounded-full text-white'>01</button>

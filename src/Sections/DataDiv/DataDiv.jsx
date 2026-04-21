@@ -6,7 +6,7 @@ const DataDiv = ({toolsData}) => {
     const useToolsData = use (toolsData)
     console.log(useToolsData)
     return (
-        <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-2 lg: grid-col-3 gap-2'>
+        <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-3 gap-2'>
             {useToolsData.map(cardData =>{return <Cards key={cardData.id} cardData={cardData}></Cards>})}
             
         </div>

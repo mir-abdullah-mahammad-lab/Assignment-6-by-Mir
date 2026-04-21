@@ -13,7 +13,8 @@
       "Export to PDF",
       "Email support"
     ],
-    "icon": "rocket"
+    "icon": "rocket",
+    "imageIcon":"https://i.ibb.co.com/HpKCSs2Y/writing.png"
   },
   {
     "id": 2,
@@ -30,7 +31,8 @@
       "Export to PDF and DOCX",
       "Priority support"
     ],
-    "icon": "zap"
+    "icon": "zap",
+    "imageIcon":"https://i.ibb.co.com/WpWRMSXm/social-media.png"
   },
   {
     "id": 3,
@@ -47,7 +49,8 @@
       "ATS optimization",
       "Cloud storage"
     ],
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "imageIcon":"https://i.ibb.co.com/WpWRMSXm/social-media.png"
   },
   {
     "id": 4,
@@ -64,7 +67,8 @@
       "Unlimited exports",
       "Admin dashboard"
     ],
-    "icon": "users"
+    "icon": "users",
+    "imageIcon":"https://i.ibb.co.com/WpWRMSXm/social-media.png"
   },
   {
     "id": 5,
@@ -81,7 +85,8 @@
       "Dedicated account manager",
       "Advanced analytics"
     ],
-    "icon": "building"
+    "icon": "building",
+    "imageIcon":"https://i.ibb.co.com/WpWRMSXm/social-media.png"
   },
   {
     "id": 6,
@@ -97,6 +102,7 @@
       "1-click export",
       "Mobile friendly"
     ],
-    "icon": "sparkles"
+    "icon": "sparkles",
+    "imageIcon":"https://i.ibb.co.com/WpWRMSXm/social-media.png"
   }
 ]
