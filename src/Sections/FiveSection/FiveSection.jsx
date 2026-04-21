@@ -1,10 +1,14 @@
 import React from 'react';
+import user from '../../assets/user.png'
+import rocket from '../../assets/rocket.png'
+import pack from '../../assets/pack.png'
 
 const FiveSection = () => {
     return (
-      <div className='w-[100em] h-[30em] bg-green-200 flex flex-col items-center justify-center'>
-            <h1>section five</h1>
-            <div className='allCard flex gap-4'>
+      <div className='w-auto h-auto bg-linear-to-r from-gray-500 to-gray-200 flex flex-col items-center justify-center'>
+            <h1 className='text-4xl font-bold'>Get Started in 3 Steps</h1>
+            <p className='text-[15px]'>Start using premium digital tools in minutes, not hours.</p>
+            <div className='flex flex-col md:flex-row gap-4'>
                 <div className='card-1 '>
                 <div className="card w-96 bg-base-100 shadow-sm">
                             <div className="card-body flex flex-col space-y-4">
@@ -13,7 +17,7 @@ const FiveSection = () => {
                                     </div>
 
                                     <div className='flex justify-center'>
-                                        <img src="" alt=" providePic" height={30} width={30} />
+                                        <img src={user} alt=" providePic" height={30} width={30} />
                                     </div>
 
                                     <div className='space-y-3'>
@@ -32,7 +36,7 @@ const FiveSection = () => {
                                     </div>
 
                                     <div className='flex justify-center'>
-                                        <img src="" alt=" providePic" height={30} width={30} />
+                                        <img src={pack} alt=" providePic" height={30} width={30} />
                                     </div>
 
                                     <div className='space-y-3'>
@@ -51,7 +55,7 @@ const FiveSection = () => {
                                     </div>
 
                                     <div className='flex justify-center'>
-                                        <img src="" alt=" providePic" height={30} width={30} />
+                                        <img src={rocket} alt=" providePic" height={30} width={30} />
                                     </div>
 
                                     <div className='space-y-3'>

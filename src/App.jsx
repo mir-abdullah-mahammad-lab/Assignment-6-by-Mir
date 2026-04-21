@@ -37,7 +37,7 @@ function App() {
        </Suspense>
 
        <FiveSection></FiveSection>
-       <SixSection></SixSection>
+       {/* <SixSection></SixSection> */}
        <SevenSection></SevenSection>
        <Footer></Footer>
     </div>
