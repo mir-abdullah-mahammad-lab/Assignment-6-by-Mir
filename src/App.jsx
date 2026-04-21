@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 
 import { Suspense } from 'react'
 import './App.css'
@@ -19,9 +19,12 @@ const dataFetched = async()=>{
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [productCart, setProductCart] = useState('product')
+  const [productCount, setProductCount] = useState(0)
+  const[proBtn, setProBtn] = useState('ProBtn')
+  
   const toolsData = dataFetched()
-  console.log(toolsData)
+  // console.log(toolsData)
   
 
   return (
@@ -29,10 +32,11 @@ function App() {
        <Navbar></Navbar>
        <SecondSection></SecondSection>
        <ThirdSection></ThirdSection>
-       <Premium></Premium>
+       <Premium productCart={productCart} setProductCart={setProductCart}
+       productCount={productCount} proBtn={proBtn} setProBtn={setProBtn}></Premium>
           
        <Suspense fallback={<span className="loading loading-spinner loading-xs"></span>}>
-          <DataDiv toolsData={toolsData}></DataDiv>
+          <DataDiv toolsData={toolsData} productCount={productCount} setProductCount={setProductCount}></DataDiv>
        </Suspense>
 
        <FiveSection></FiveSection>

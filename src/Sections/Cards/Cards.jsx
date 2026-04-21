@@ -1,7 +1,8 @@
-import React from 'react';
-import writing from '../../assets/products/writing.png'
+import React, { useState } from 'react';
 
-const Cards = ({cardData}) => {
+
+const Cards = ({cardData, productCount, setProductCount}) => {
+  const [addToCart, setAddToCart] = useState('noTadded')
     return (
         <div>
             
@@ -31,7 +32,10 @@ const Cards = ({cardData}) => {
       </ul>
 
     <div className="mt-6">
-      <button className="btn btn-primary btn-block rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa]">Buy Now</button>
+      <button
+      onClick={ ()=>{ setAddToCart('added'); setProductCount(productCount+1) } } 
+      className={`btn btn-block rounded-full ${addToCart === 'added' ? `bg-green-500`:`bg-linear-to-r from-[#4f39f6] to-[#9514fa]`}`}>{addToCart ==='added' ? "Added to cart" : "Buy Now"}
+      </button>
     </div>
   </div>
 </div>
