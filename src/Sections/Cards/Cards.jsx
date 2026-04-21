@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
 
-const Cards = ({cardData, productCount, setProductCount}) => {
+const Cards = ({cardData, productCount, setProductCount, setCartListItem, cartListItem, price, setPrice}) => {
   const [addToCart, setAddToCart] = useState('noTadded')
+  console.log('aaaaaaaaaa', cardData)
     return (
         <div>
             
@@ -33,7 +34,12 @@ const Cards = ({cardData, productCount, setProductCount}) => {
 
     <div className="mt-6">
       <button
-      onClick={ ()=>{ setAddToCart('added'); setProductCount(productCount+1) } } 
+      onClick={ ()=>{ setAddToCart('added'); 
+        setProductCount (productCount + 1); 
+        setCartListItem([...cartListItem, cardData]);
+        setPrice(price + cardData.price)
+      }
+     } 
       className={`btn btn-block rounded-full ${addToCart === 'added' ? `bg-green-500`:`bg-linear-to-r from-[#4f39f6] to-[#9514fa]`}`}>{addToCart ==='added' ? "Added to cart" : "Buy Now"}
       </button>
     </div>
